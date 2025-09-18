@@ -73,7 +73,7 @@ export default function KolamAnalysis() {
         reader.readAsDataURL(selectedFile)
       })
 
-      const apiKey = "AIzaSyBJ2tPSLxlbbjtt-DwvNu35PaIC0NkGgaQ"
+      const apiKey = "AIzaSyDILVzMyv2zuTo6SV_z0GzEfiofls5YzVI"
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`
 
       const systemPrompt =
